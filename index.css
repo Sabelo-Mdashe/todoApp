@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  color: #4e8397;
+}
+
 .top-menu {
   display: flex;
   gap: 30px;
@@ -27,6 +31,7 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #845ec2;
 }
 
 .todo-border-container {
@@ -39,5 +44,11 @@ input {
 
 #task {
   display: flex;
-  gap: 50px;
+  justify-content: space-between;
+  /* gap: 50px; */
 }
+
+/* .bi-trash3-fill:hover {
+  color: red;
+  font-size: 50px;
+} */
